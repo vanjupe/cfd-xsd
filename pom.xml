@@ -41,6 +41,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>jaxb2-maven-plugin</artifactId>
                 <version>2.2</version>
+
                 <executions>
                     <execution>
                         <id>cfd2</id>
@@ -106,6 +107,20 @@
                             <packageName>mx.gob.sat.nomina</packageName>
                             <sources>
                                 <source>xml-resources/xsd/NominaCFDi</source>
+                            </sources>
+                            <extension>true</extension>
+                            <clearOutputDir>false</clearOutputDir>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>nominaV12</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                        <configuration>
+                            <packageName>mx.gob.sat.nomina.v12</packageName>
+                            <sources>
+                                <source>xml-resources/xsd/nominav12</source>
                             </sources>
                             <extension>true</extension>
                             <clearOutputDir>false</clearOutputDir>
