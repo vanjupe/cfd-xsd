@@ -99,6 +99,20 @@
                         </configuration>
                     </execution>
                     <execution>
+                        <id>tfd11</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                        <configuration>
+                            <packageName>mx.gob.sat.tfd11</packageName>
+                            <sources>
+                                <source>xml-resources/xsd/TimbreFiscalDigitalv11/TimbreFiscalDigitalv11.xsd</source>
+                            </sources>
+                            <extension>true</extension>
+                            <clearOutputDir>false</clearOutputDir>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>cfd33</id>
                         <goals>
                             <goal>xjc</goal>
