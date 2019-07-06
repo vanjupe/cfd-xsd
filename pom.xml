@@ -127,6 +127,20 @@
                         </configuration>
                     </execution>
                     <execution>
+                        <id>pago10</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                        <configuration>
+                            <packageName>com.vanjupe.contabilidad.pago10</packageName>
+                            <sources>
+                                <source>xml-resources/xsd/pago10</source>
+                            </sources>
+                            <extension>true</extension>
+                            <clearOutputDir>false</clearOutputDir>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>nomina</id>
                         <goals>
                             <goal>xjc</goal>
