@@ -127,6 +127,20 @@
                         </configuration>
                     </execution>
                     <execution>
+                        <id>cfd40</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                        <configuration>
+                            <packageName>com.vanjupe.contabilidad.cfd40</packageName>
+                            <sources>
+                                <source>xml-resources/xsd/v40</source>
+                            </sources>
+                            <extension>true</extension>
+                            <clearOutputDir>false</clearOutputDir>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>pago10</id>
                         <goals>
                             <goal>xjc</goal>
