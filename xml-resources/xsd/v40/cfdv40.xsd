@@ -1183,12 +1183,12 @@
                         b del CFF.
                     </xs:documentation>
                 </xs:annotation>
-            </xs:attribute>equired">
+            </xs:attribute>
                 <xs:annotation>
                     <xs:documentation>Atributo requerido para incorporar el código postal del lugar de expedición del
                         comprobante (domicilio de la matriz o de la sucursal).
                     </xs:documentation>
-                    <xs:attribute name="LugarExpedicion" type="catCFDI:c_CodigoPostal" use="r
+					-<xs:attribute name="LugarExpedicion" use="required" type="catCFDI:c_CodigoPostal">
                 </xs:annotation>
             </xs:attribute>
             <xs:attribute name="Confirmacion" use="optional">
