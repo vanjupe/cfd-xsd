@@ -196,6 +196,20 @@
                             <clearOutputDir>false</clearOutputDir>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>pago20</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                        <configuration>
+                            <packageName>com.vanjupe.contabilidad.pago20</packageName>
+                            <sources>
+                                <source>xml-resources/xsd/pago20</source>
+                            </sources>
+                            <extension>true</extension>
+                            <clearOutputDir>false</clearOutputDir>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
 
